@@ -17,7 +17,7 @@ if __name__ == "__main__":
     options.add_argument(
         "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36"
     )
-    options.binary_location = "/usr/local/bin/chrome-linux64/chrome"
+    options.binary_location = "/usr/bin/google-chrome"
 
     keys = ["recently", "ranking/daily"]
     for key in keys:
