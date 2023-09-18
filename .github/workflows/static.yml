@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Install chrome
         run: |
-          wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/114.0.5735.90/linux64/chrome-linux64.zip
+          wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.88/linux64/chrome-linux64.zip
           unzip chrome-linux64.zip -d /usr/local/bin/
           chmod +x /usr/local/bin/chrome-linux64/chrome
       - uses: actions/checkout@v3
