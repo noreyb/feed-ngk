@@ -2,7 +2,7 @@ pages:
 - id: recently
   title: recently
   url: https://ascii2d.net/recently
-  item_selector: recently_header
+  item_selector: row
   item_link_selector: a
   item_title_selector: a
 title: ngk
