@@ -22,6 +22,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - run: ls usr/local/bin/
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
