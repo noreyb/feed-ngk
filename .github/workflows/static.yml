@@ -22,9 +22,11 @@ jobs:
   update:
     runs-on: ubuntu-22.04
     steps:
-      - uses: browser-actions/setup-chrome@v1
-        with: 
-          chrome-version: stable
+      - name: Install chrome
+        run: |
+          wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/114.0.5735.90/linux64/chrome-linux64.zip
+          unzip chrome-linux64.zip -d /usr/local/bin/
+          chmod +x /usr/local/bin/chrome-linux64/chrome
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:

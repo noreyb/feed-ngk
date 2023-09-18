@@ -11,7 +11,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 if __name__ == "__main__":
     # Setup selenium
-    service = ChromeService(ChromeDriverManager().install())
+    # service = ChromeService(ChromeDriverManager(version="114.0.5735.90").install())
+    service = ChromeService()
     options = Options()
     options.add_argument("--headless")
     options.add_argument(
