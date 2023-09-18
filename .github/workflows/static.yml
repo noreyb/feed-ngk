@@ -5,30 +5,55 @@ on:
   push:
     branches: ["main"]
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "8 */6 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: r7kamura/weneedfeed-action@v3
+      - uses: actions/setup-python@v4
         with:
-          base_url: https://noreyb.github.io/feed-ngk
+          python-version: "3.11"
+      - uses: Gr1N/setup-poetry@v8
+      - run: poetry install --no-root
+      - run: poetry run python main.py
       - uses: actions/upload-pages-artifact@v1
-        with:
-          path: output
+      - name: Update feed
+        continue-on-error: true
+        run: |
+          git config user.name "$(git --no-pager log --format=format:'%an' -n 1)"
+          git config user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
+          git add .
+          git commit -m "update feeds"
+          git push origin main
 
   deploy:
     needs: update
-    permissions:
-      id-token: write
-      pages: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: "./output"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
