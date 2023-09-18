@@ -20,6 +20,7 @@ jobs:
           path: output
 
   deploy:
+    needs: update
     permissions:
       id-token: write
       pages: write
