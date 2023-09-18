@@ -7,11 +7,11 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
+import chromedriver_binary
 
 if __name__ == "__main__":
     # Setup selenium
-    service = ChromeService(ChromeDriverManager(version="114.0.5735.90").install())
+    service = ChromeService()
     options = Options()
     options.add_argument("--headless")
     options.add_argument(
