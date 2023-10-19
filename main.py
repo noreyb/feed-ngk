@@ -9,7 +9,7 @@ if __name__ == "__main__":
     keys = ["recently", "ranking/daily"]
     for key in keys:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browser = p.chromium.launch(headless=False)
             page = browser.new_page()
             page.goto(f"https://ascii2d.net/{key}")
             time.sleep(5)
