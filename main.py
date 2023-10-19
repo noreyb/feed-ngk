@@ -2,38 +2,18 @@ import time
 import xml.etree.ElementTree as ET
 
 import feedgenerator
-import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
+from playwright.sync_api import sync_playwright
 
 if __name__ == "__main__":
-    # Setup selenium
-    # service = ChromeService(ChromeDriverManager(version="114.0.5735.90").install())
-    service = ChromeService()
-    options = Options()
-    options.add_argument("--headless")
-    options.add_argument(
-        "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36"
-    )
-    options.binary_location = "/usr/local/bin/chrome-linux64/chrome"
-
     keys = ["recently", "ranking/daily"]
     for key in keys:
-        driver = webdriver.Chrome(
-            service=service,
-            options=options,
-        )
-
-        try:
-            # URLを開いて、レンダリングを待ち、ソースを取得する
-            url = f"https://ascii2d.net/{key}"
-            driver.get(url)
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.goto(f"https://ascii2d.net/{key}")
             time.sleep(5)
-            html = driver.page_source
-            # print(html)
+            html = page.content()
 
             soup = BeautifulSoup(html, "html.parser")
             headers = soup.find_all(class_="recently_header")
@@ -85,5 +65,3 @@ if __name__ == "__main__":
                 encoding="utf-8",
                 xml_declaration=True,
             )
-        finally:
-            driver.quit()

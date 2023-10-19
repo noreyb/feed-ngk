@@ -33,6 +33,7 @@ jobs:
           python-version: "3.11"
       - uses: Gr1N/setup-poetry@v8
       - run: poetry install --no-root
+      - run: poetry run playwright install chromium
       - run: poetry run python main.py
       - name: Update feed
         continue-on-error: true
