@@ -28,11 +28,11 @@ jobs:
           wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.88/linux64/chrome-linux64.zip
           unzip chrome-linux64.zip -d /usr/local/bin/
           chmod +x /usr/local/bin/chrome-linux64/chrome
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - uses: Gr1N/setup-poetry@v8
+      - uses: Gr1N/setup-poetry@v9
       - run: poetry install --no-root
       - run: poetry run playwright install chromium
       - run: xvfb-run --auto-servernum --server-num=1 --server-args='-screen 0, 1920x1080x24' poetry run python main.py
@@ -53,13 +53,13 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "./output"
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
