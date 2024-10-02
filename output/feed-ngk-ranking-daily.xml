@@ -4,7 +4,7 @@
         <title>feed-ngk-ranking-daily</title>
         <link>https://noreyb.github.io/feed-ngk</link>
         <description>feed-ngk-ranking-daily</description>
-        <lastBuildDate>Wed, 02 Oct 2024 01:48:54 -0000</lastBuildDate>
+        <lastBuildDate>Wed, 02 Oct 2024 06:32:56 -0000</lastBuildDate>
         <item>
             <title>765c755867a486f63884265e8b8d0e04</title>
             <link>https://tsumanne.net/si/data/2024/10/01/9591306/1727770747091.jpg</link>
@@ -13,9 +13,9 @@
         </item>
         <item>
             <title>7d0ab306c77dc395a1cbf4d17ade9340</title>
-            <link>http://c3.ftbucket.info/img/cont/img.2chan.net_b_res_1238663446/img/1727798990887.jpg</link>
+            <link>https://c3.ftbucket.info/img/cont/img.2chan.net_b_res_1238663446/img/1727798990887.jpg</link>
             <description>7d0ab306c77dc395a1cbf4d17ade9340</description>
-            <enclosure length="0" type="image/jpeg" url="http://c3.ftbucket.info/img/cont/img.2chan.net_b_res_1238663446/img/1727798990887.jpg" />
+            <enclosure length="0" type="image/jpeg" url="https://c3.ftbucket.info/img/cont/img.2chan.net_b_res_1238663446/img/1727798990887.jpg" />
         </item>
         <item>
             <title>52d2ce46160ac8b5e2a4be4e4cf72815</title>
@@ -24,34 +24,10 @@
             <enclosure length="0" type="image/jpeg" url="https://tsumanne.net/si/data/2024/10/02/9592328/1727803391640.jpg" />
         </item>
         <item>
-            <title>9b90736af086883194a37c64967cd725</title>
-            <link>https://img.2chan.net/b/src/1727788026903.jpg</link>
-            <description>9b90736af086883194a37c64967cd725</description>
-            <enclosure length="0" type="image/jpeg" url="https://img.2chan.net/b/src/1727788026903.jpg" />
-        </item>
-        <item>
             <title>8b9319a60bd3c33a30ff6d235e3f24d9</title>
             <link>https://moeimg.net/wp-content/uploads/archives21/21043/1_vmyh9xmf0t.jpg</link>
             <description>8b9319a60bd3c33a30ff6d235e3f24d9</description>
             <enclosure length="0" type="image/jpeg" url="https://moeimg.net/wp-content/uploads/archives21/21043/1_vmyh9xmf0t.jpg" />
-        </item>
-        <item>
-            <title>2ed80a853581eefd05ce87878fd2a8c4</title>
-            <link>https://tsumanne.net/si/data/2024/10/01/9591302/1727766634562.png</link>
-            <description>2ed80a853581eefd05ce87878fd2a8c4</description>
-            <enclosure length="0" type="image/jpeg" url="https://tsumanne.net/si/data/2024/10/01/9591302/1727766634562.png" />
-        </item>
-        <item>
-            <title>B8cab9bb4c6f9b3556877fca116be684</title>
-            <link>https://may.ftbucket.info/may/cont/may.2chan.net_b_res_1259830585/img/1727774619266.jpg</link>
-            <description>B8cab9bb4c6f9b3556877fca116be684</description>
-            <enclosure length="0" type="image/jpeg" url="https://may.ftbucket.info/may/cont/may.2chan.net_b_res_1259830585/img/1727774619266.jpg" />
-        </item>
-        <item>
-            <title>Cd396310a19be2de0f7b0c29e3faee6b</title>
-            <link>https://moeimg.net/wp-content/uploads/archives21/21041/1_ux6v50r2ko.jpg</link>
-            <description>Cd396310a19be2de0f7b0c29e3faee6b</description>
-            <enclosure length="0" type="image/jpeg" url="https://moeimg.net/wp-content/uploads/archives21/21041/1_ux6v50r2ko.jpg" />
         </item>
         <item>
             <title>A8f118909861dd3c29f2838d103dae5c</title>
@@ -60,10 +36,28 @@
             <enclosure length="0" type="image/jpeg" url="https://moeimg.net/wp-content/uploads/archives21/21045/1_oelxj5fv1j.jpg" />
         </item>
         <item>
+            <title>2ed80a853581eefd05ce87878fd2a8c4</title>
+            <link>https://tsumanne.net/si/data/2024/10/01/9591302/1727766634562.png</link>
+            <description>2ed80a853581eefd05ce87878fd2a8c4</description>
+            <enclosure length="0" type="image/jpeg" url="https://tsumanne.net/si/data/2024/10/01/9591302/1727766634562.png" />
+        </item>
+        <item>
             <title>6d8b3fa33dee1cfd91f3f41a589ddd64</title>
             <link>https://may.2chan.net/b/src/1727780689279.jpg</link>
             <description>6d8b3fa33dee1cfd91f3f41a589ddd64</description>
             <enclosure length="0" type="image/jpeg" url="https://may.2chan.net/b/src/1727780689279.jpg" />
+        </item>
+        <item>
+            <title>8c6172f433bd0e47621514043d6a4162</title>
+            <link>http://img.2chan.net/b/src/1727846565328.jpg</link>
+            <description>8c6172f433bd0e47621514043d6a4162</description>
+            <enclosure length="0" type="image/jpeg" url="http://img.2chan.net/b/src/1727846565328.jpg" />
+        </item>
+        <item>
+            <title>B7efbb68cc3cb716df5906fda09f0321</title>
+            <link>https://moeimg.net/wp-content/uploads/archives21/21043/42_4z4kf7uoq0.jpg</link>
+            <description>B7efbb68cc3cb716df5906fda09f0321</description>
+            <enclosure length="0" type="image/jpeg" url="https://moeimg.net/wp-content/uploads/archives21/21043/42_4z4kf7uoq0.jpg" />
         </item>
         <item>
             <title>A020d982aed627eeb287f3af4b28f7e7</title>
@@ -78,22 +72,10 @@
             <enclosure length="0" type="image/jpeg" url="http://img.2chan.net/b/src/1727776381510.jpg" />
         </item>
         <item>
-            <title>A2c279c5186ec30b26d1f46a0b0c6c3e</title>
-            <link>https://moeimg.net/wp-content/uploads/archives21/21040/10_yqgdtnro1y.jpg</link>
-            <description>A2c279c5186ec30b26d1f46a0b0c6c3e</description>
-            <enclosure length="0" type="image/jpeg" url="https://moeimg.net/wp-content/uploads/archives21/21040/10_yqgdtnro1y.jpg" />
-        </item>
-        <item>
-            <title>B7efbb68cc3cb716df5906fda09f0321</title>
-            <link>https://moeimg.net/wp-content/uploads/archives21/21043/42_4z4kf7uoq0.jpg</link>
-            <description>B7efbb68cc3cb716df5906fda09f0321</description>
-            <enclosure length="0" type="image/jpeg" url="https://moeimg.net/wp-content/uploads/archives21/21043/42_4z4kf7uoq0.jpg" />
-        </item>
-        <item>
-            <title>74f646a4a48c76e677a0130a33a61b9f</title>
-            <link>https://moeimg.net/wp-content/uploads/archives21/21040/1_cifyvsvo28.jpg</link>
-            <description>74f646a4a48c76e677a0130a33a61b9f</description>
-            <enclosure length="0" type="image/jpeg" url="https://moeimg.net/wp-content/uploads/archives21/21040/1_cifyvsvo28.jpg" />
+            <title>37823a6681680980b388d9964268636d</title>
+            <link>https://moeimg.net/wp-content/uploads/archives21/21045/2_jk4n6yspk5.jpg</link>
+            <description>37823a6681680980b388d9964268636d</description>
+            <enclosure length="0" type="image/jpeg" url="https://moeimg.net/wp-content/uploads/archives21/21045/2_jk4n6yspk5.jpg" />
         </item>
         <item>
             <title>6aa46898ad25c9f63521154fc329e4a4</title>
@@ -108,22 +90,40 @@
             <enclosure length="0" type="image/jpeg" url="http://img.2chan.net/b/src/1727802719622.jpg" />
         </item>
         <item>
-            <title>37823a6681680980b388d9964268636d</title>
-            <link>https://moeimg.net/wp-content/uploads/archives21/21045/2_jk4n6yspk5.jpg</link>
-            <description>37823a6681680980b388d9964268636d</description>
-            <enclosure length="0" type="image/jpeg" url="https://moeimg.net/wp-content/uploads/archives21/21045/2_jk4n6yspk5.jpg" />
+            <title>74f646a4a48c76e677a0130a33a61b9f</title>
+            <link>https://moeimg.net/wp-content/uploads/archives21/21040/1_cifyvsvo28.jpg</link>
+            <description>74f646a4a48c76e677a0130a33a61b9f</description>
+            <enclosure length="0" type="image/jpeg" url="https://moeimg.net/wp-content/uploads/archives21/21040/1_cifyvsvo28.jpg" />
         </item>
         <item>
-            <title>3a37c3ad7271f9f99863aafe11086ecf</title>
-            <link>https://tsumanne.net/si/data/2024/10/01/9591799/1727784086146.png</link>
-            <description>3a37c3ad7271f9f99863aafe11086ecf</description>
-            <enclosure length="0" type="image/jpeg" url="https://tsumanne.net/si/data/2024/10/01/9591799/1727784086146.png" />
+            <title>9b90736af086883194a37c64967cd725</title>
+            <link>https://img.2chan.net/b/src/1727788026903.jpg</link>
+            <description>9b90736af086883194a37c64967cd725</description>
+            <enclosure length="0" type="image/jpeg" url="https://img.2chan.net/b/src/1727788026903.jpg" />
         </item>
         <item>
-            <title>8590a00d30869ca524ffdc2a6a4377a3</title>
-            <link>http://may.ftbucket.info/may/cont/may.2chan.net_b_res_1259811342/img/1727769025395.jpg</link>
-            <description>8590a00d30869ca524ffdc2a6a4377a3</description>
-            <enclosure length="0" type="image/jpeg" url="http://may.ftbucket.info/may/cont/may.2chan.net_b_res_1259811342/img/1727769025395.jpg" />
+            <title>4c2871ddfb573078c29b4dd91ad9960b</title>
+            <link>https://c3.ftbucket.info/img/cont/img.2chan.net_b_res_1238708617/img/1727829387934.jpg</link>
+            <description>4c2871ddfb573078c29b4dd91ad9960b</description>
+            <enclosure length="0" type="image/jpeg" url="https://c3.ftbucket.info/img/cont/img.2chan.net_b_res_1238708617/img/1727829387934.jpg" />
+        </item>
+        <item>
+            <title>B8cab9bb4c6f9b3556877fca116be684</title>
+            <link>https://may.ftbucket.info/may/cont/may.2chan.net_b_res_1259830585/img/1727774619266.jpg</link>
+            <description>B8cab9bb4c6f9b3556877fca116be684</description>
+            <enclosure length="0" type="image/jpeg" url="https://may.ftbucket.info/may/cont/may.2chan.net_b_res_1259830585/img/1727774619266.jpg" />
+        </item>
+        <item>
+            <title>6cf9d71639e11ecc603918c94d5aaa79</title>
+            <link>http://img.2chan.net/b/src/1727839695314.jpg</link>
+            <description>6cf9d71639e11ecc603918c94d5aaa79</description>
+            <enclosure length="0" type="image/jpeg" url="http://img.2chan.net/b/src/1727839695314.jpg" />
+        </item>
+        <item>
+            <title>Aee02a925e31b83fc5f9de5ced71a84d</title>
+            <link>https://tsumanne.net/si/data/2024/10/02/9592529/1727828684578.jpg</link>
+            <description>Aee02a925e31b83fc5f9de5ced71a84d</description>
+            <enclosure length="0" type="image/jpeg" url="https://tsumanne.net/si/data/2024/10/02/9592529/1727828684578.jpg" />
         </item>
     </channel>
 </rss>
